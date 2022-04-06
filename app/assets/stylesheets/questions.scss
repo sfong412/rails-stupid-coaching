@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Defining a variable
+$gray: #F4F4F4;
+$dark-gray: #A4A4A4;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Open Sans', sans-serif;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.banner {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.form {
+  input {
+    font-size: 24px;
+  }
+}
+
+a {
+  color: grey;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.message {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-left: 5px solid $dark-gray;
+  margin: 12px 12px;
+  padding: 0 12px;
+}
